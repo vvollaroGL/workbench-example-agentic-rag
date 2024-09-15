@@ -26,8 +26,8 @@ This module adds Environment Variable parsing to config file reading.
 import json
 import logging
 import os
-from dataclasses import _MISSING_TYPE, dataclass
-from typing import Any, Callable, Dict, List, Optional, TextIO, Tuple, Union
+from dataclasses import BaseModel, dataclass
+from typing import Any, Dict,
 
 import yaml
 from dataclass_wizard import (
