@@ -1,5 +1,5 @@
 specVersion: v2
-specMinorVersion: 1
+specMinorVersion: 2
 meta:
   name: agentic-rag
   image: project-agentic-rag
@@ -42,7 +42,7 @@ environment:
       stop_command: pkill -f "^python3 -m chatui"
       user_msg: ""
       logfile_path: ""
-      timeout_seconds: 0
+      timeout_seconds: 60
       icon_url: ""
       webapp_options:
         autolaunch: true
@@ -61,7 +61,7 @@ environment:
       stop_command: jupyter lab stop 8888
       user_msg: ""
       logfile_path: ""
-      timeout_seconds: 0
+      timeout_seconds: 60
       icon_url: ""
       webapp_options:
         autolaunch: true
@@ -80,7 +80,7 @@ environment:
       stop_command: pkill tensorboard
       user_msg: ""
       logfile_path: ""
-      timeout_seconds: 0
+      timeout_seconds: 60
       icon_url: ""
       webapp_options:
         autolaunch: true
